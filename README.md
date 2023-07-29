@@ -12,7 +12,7 @@ __Step 2:__  Initialize Cryptocurrency Payment Gateway
 
  - Create an instance of the payment gateway using the obtained API keys and credentials.
    
-   ```
+   ```bash
    cryptocurrency_payment_gateway_integration.py
    ``` 
 
