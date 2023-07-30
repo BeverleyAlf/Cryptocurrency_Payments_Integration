@@ -8,8 +8,8 @@ def payment_callback():
     transaction_id = request.json.get('transaction_id')
     status = request.json.get('status')
 
-    # Update the transaction status in your platform's database
-    # Example: update_transaction_status_in_database(transaction_id, status)
+    # Update the transaction status in your platform's database:
+    # Example: update_transaction_status_in_database(transaction_id, status) :
 
     return jsonify({'message': 'Payment callback received successfully'})
 
