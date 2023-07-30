@@ -7,7 +7,7 @@ class CryptocurrencyPaymentGateway:
         self.base_url = "https://api.payment-gateway.com"
 
     def initiate_transaction(self, amount, currency, customer_email):
-        # Make API call to initiate the cryptocurrency payment
+        # Make API call to initiate the cryptocurrency payment:
         url = f"{self.base_url}/initiate-transaction"
         headers = {
             'Authorization': f"Bearer {self.api_key}"
