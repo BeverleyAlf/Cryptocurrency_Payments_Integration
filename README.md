@@ -18,8 +18,8 @@ __Step 2:__  Initialize Cryptocurrency Payment Gateway
 
 __Step 3:__ Handle Payment Callbacks
 
-Cryptocurrency payment gateways typically send payment callbacks to notify your platform about transaction updates.
-Create a URL endpoint to receive and process these payment callbacks from the payment gateway.
+ - Cryptocurrency payment gateways typically send payment callbacks to notify your platform about transaction updates.
+ - Create a URL endpoint to receive and process these payment callbacks from the payment gateway.
 
 ```payment_callback_handling.py```
 
