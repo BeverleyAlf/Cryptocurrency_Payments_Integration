@@ -1,9 +1,9 @@
 # Cryptocurrency Payments Integration
 Integrate cryptocurrency payment gateways into an existing e-commerce platform or website.
 
-- Please note that the specific code may vary based on the chosen cryptocurrency payment gateway provider's API and documentation:
+- Please note that the specific code may vary based on the chosen cryptocurrency payment gateway provider's API and documentation.
 
-__Step 1:__ Set Up Cryptocurrency Payment Gateway Account
+__Step 1:__ Set Up Cryptocurrency Payment Gateway Account:
 
  - Choose a cryptocurrency payment gateway provider and sign up for an account.
  - Obtain the necessary API keys and credentials from the provider.
