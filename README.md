@@ -29,4 +29,5 @@ __Step 4:__ Handle Payment Callbacks
 Cryptocurrency payment gateways typically send payment callbacks to notify your platform about transaction updates.
 Create a URL endpoint to receive and process these payment callbacks from the payment gateway.
 
-Note: cryptocurrency_payment_gateway_integration.py  will handle the cryptocurrency payment gateway integration, while payment_callback_handling.py will handle payment callbacks and update the transaction status on your platform. Both files should be running concurrently to enable full functionality for cryptocurrency payments on your platform.
+__Note:__ 
+```cryptocurrency_payment_gateway_integration.py```  will handle the cryptocurrency payment gateway integration, while ```payment_callback_handling.py``` will handle payment callbacks and update the transaction status on your platform. Both files should be running concurrently to enable full functionality for cryptocurrency payments on your platform.
