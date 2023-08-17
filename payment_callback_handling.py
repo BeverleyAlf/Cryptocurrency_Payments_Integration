@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/payment-callback', methods=['POST'])
 def payment_callback():
-    # Handle payment callback from the cryptocurrency payment gateway
+    # Handle payment callback from the cryptocurrency payment gateway:
     transaction_id = request.json.get('transaction_id')
     status = request.json.get('status')
 
